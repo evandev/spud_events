@@ -4,7 +4,7 @@ module Spud
       include ::ActionView::Helpers::TagHelper
 
       def initialize(objects, template, options)
-        raise ArgumentError, "TableBuilder expects an Array but found a #{objects.inspect}" unless objects.is_a? Array
+        # raise ArgumentError, "TableBuilder expects an Array but found a #{objects.inspect}" unless objects.is_a? Array
         @objects, @template, @options = objects, template, options
       end
 
