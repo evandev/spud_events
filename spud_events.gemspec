@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["Rakefile", "README.md"]
 
-  s.add_dependency "rails", ">= 4.0.0"
-  s.add_dependency 'spud_core', "~> 1.0.0.rc1"
+  s.add_dependency "rails", "~> 4.1.4"
+  s.add_dependency 'spud_core', "~> 1.0.6"
 
   s.add_development_dependency 'mysql2'
   s.add_development_dependency 'rspec', '2.14.0'
