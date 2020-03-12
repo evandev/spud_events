@@ -64,7 +64,7 @@ class Spud::Admin::CalendarEventsController < Spud::Admin::ApplicationController
 private
 
   def calendar_event_params
-    params.require(:spud_calendar_event).permit(:title, :description, :start_at, :end_at, :all_day, :spud_calendar_id, :spud_calendar, :location, :address, :address_2, :city, :state, :zip)
+    params.require(:spud_calendar_event).permit(:title, :description, :start_at, :end_at, :all_day, :spud_calendar_id, :spud_calendar, :location, :address, :address_2, :city, :state, :zip, :event_url)
   end
 
 end
